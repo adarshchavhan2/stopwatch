@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- google fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <!-- favicon & css -->
+   <link rel="shortcut icon" href="assets/favicon.png" type="image/png">
+   <link rel="stylesheet" href="css/style.css">
+
+   <title>Counter App</title>
+</head>
+<body>
+   <div class="container">
+      <div class="wrapper">
+         <div class="time hrs">00</div>
+         <div class="time min">00</div>
+         <div class="time sec">00</div>
+         <div class="text">hours</div>
+         <div class="text">minutes</div>
+         <div class="text">seconds</div>
+      </div>
+      <div class="btn-wrapper">
+         <button class="btn" onclick="timer('play')"><span class="iconify" data-icon="bi:play-fill"></span></button>
+         <button class="btn" onclick="timer('pause')"><span class="iconify" data-icon="bi:pause-fill"></span></span></button>
+         <button class="btn" onclick="timer('reset')"><span class="iconify" data-icon="bx:reset"></span></button>
+      </div>
+   </div>
+   <div class="legal" style="opacity: 0;">@2022 developed by Adarsh</div>
+   <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+   <script src="js/index.js"></script>
+</body>
+</html>
